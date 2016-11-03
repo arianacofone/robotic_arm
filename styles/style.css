@@ -1,3 +1,17 @@
 body {
   background-color: rgb(107,107,107);
 }
+
+#bionic-arm {
+  background-color: white;
+  width: 100%;
+  height: 30rem;
+}
+
+#faux-terminal {
+  background-color: rgb(42,38,66);
+  color: white;
+  width: 100%;
+  height: 20rem;
+  border-top: 2px solid black;
+}
