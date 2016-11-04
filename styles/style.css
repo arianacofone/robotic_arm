@@ -24,6 +24,16 @@ h2 {
   margin-bottom: -5rem;
 }
 
+#hand {
+  margin-left: 19rem;
+  margin-top: 7rem;
+  width: 124px;
+  transform: rotate(-17deg);
+  -ms-transform: rotate(-17deg);
+  -webkit-transform: rotate(-17deg);
+  position: absolute;
+}
+
 /*** TOP GEAR ***/
 
 #top-gear {
@@ -157,8 +167,12 @@ h2 {
   letter-spacing: 1px;
   font-weight: lighter;
   margin: 0;
+  overflow-y: auto;
+  line-height: .35rem;
 }
+
 
 p {
   margin-left: 4px;
+  text-transform: lowercase;
 }
